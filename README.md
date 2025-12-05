@@ -133,3 +133,10 @@ Perché è utile per i collezionisti
 Risparmia tempo: invece di rinominare centinaia di file a mano, basta un comando e la cartella viene normalizzata.
 Migliora la ricerca: con nomi coerenti è più facile trovare un numero specifico o sfogliare l’intera serie in un file manager o in un reader.
 È pensato in particolare per fumetti italiani ed americani di scansioni “reali”, dove i nomi dei file spesso includono un sacco di informazioni superflue. Altamente configurabile aggiungendo eventuali nomi da rimuovere all'interno dello script. Nei fumetti in inglese bisognerà adattarlo, oppure chiedere eventuali modifiche.
+
+
+
+Video/Screencast
+
+https://github.com/user-attachments/assets/6e5d87a3-7b75-423d-adc6-f67b4f0a4c72
+
