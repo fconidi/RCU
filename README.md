@@ -63,6 +63,9 @@ sudo dpkg -i rename-comics-universal_2.7.deb
 rename_comics_universal
 ```
 
+### For Windows only drag and drop
+
+
 ## Why It Is Useful for Collectors
 
 - **Saves time**: Renames hundreds of files in one go instead of doing it manually
@@ -75,10 +78,9 @@ rename_comics_universal
 
 [Watch demo video](https://github.com/user-attachments/assets/6e5d87a3-7b75-423d-adc6-f67b4f0a4c72)
 
-
-
-
-
+---
+---
+---
 
 ## Video/Screencast Windows
 
@@ -87,6 +89,19 @@ rename_comics_universal
 ---
 ---
 ---
+
+## 📋 Requirements
+
+- **Linux**: Bash 4.0+, Zenity (opzionale per GUI)
+- **Windows**: Powershell
+- **Supported formats**: PDF, CBR, CBZ, EPUB
+
+## 👤 About
+
+**Franco Conidi aka Edmond - SysLinuxOS**  
+System Integrator, Network Engineer, IT Consultant
+Blogger Linux
+
 
 # 🇮🇹 VERSIONE ITALIANA
 
@@ -151,6 +166,10 @@ rename_comics_universal
 
 In alternativa puoi lanciarlo senza parametri e inserire il percorso quando richiesto, oppure confermare/modificare l'intestazione proposta (il nome della serie).
 
+
+### Windows basta solo drag and drop da powershell
+
+
 ## Perché è Utile per i Collezionisti
 
 - **Risparmia tempo**: Invece di rinominare centinaia di file a mano, basta un comando
@@ -179,6 +198,7 @@ In alternativa puoi lanciarlo senza parametri e inserire il percorso quando rich
 ## 📋 Requisiti
 
 - **Linux**: Bash 4.0+, Zenity (opzionale per GUI)
+- **Windows**: Powershell
 - **Formati supportati**: PDF, CBR, CBZ, EPUB
 
 ## 👤 Autore
@@ -189,6 +209,6 @@ Blogger Linux e sviluppatore
 
 ---
 
-**Versione**: 2.7 | **Data**: Dicembre 2025 | **Piattaforma**: Linux
+**Versione**: 2.7 | **Data**: Dicembre 2025 | **Piattaforma**: Linux/Windows
 
 🎉 **Scarica ed ordina la tua libreria in pochi secondi!** 🎉
