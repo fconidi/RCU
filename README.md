@@ -75,6 +75,15 @@ rename_comics_universal
 
 [Watch demo video](https://github.com/user-attachments/assets/6e5d87a3-7b75-423d-adc6-f67b4f0a4c72)
 
+
+
+
+
+
+## Video/Screencast Windows
+
+![RCU-Windows](https://github.com/user-attachments/assets/91466ea5-865f-4492-a52e-d4d1f590d32d)
+
 ---
 ---
 ---
@@ -156,6 +165,16 @@ In alternativa puoi lanciarlo senza parametri e inserire il percorso quando rich
 [Guarda il video dimostrativo](https://github.com/user-attachments/assets/6e5d87a3-7b75-423d-adc6-f67b4f0a4c72)
 
 ---
+---
+---
+
+## Video/Screencast Windows
+
+![RCU-Windows](https://github.com/user-attachments/assets/91466ea5-865f-4492-a52e-d4d1f590d32d)
+
+
+
+---
 
 ## 📋 Requisiti
 
@@ -164,7 +183,8 @@ In alternativa puoi lanciarlo senza parametri e inserire il percorso quando rich
 
 ## 👤 Autore
 
-**Edmond - SysLinuxOS**  
+**Franco Conidi aka Edmond - SysLinuxOS**  
+System Integrator, Network engineer, IT Consultant
 Blogger Linux e sviluppatore
 
 ---
