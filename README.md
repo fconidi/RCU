@@ -1,6 +1,6 @@
 # RCU - Rename Comics Universal
 
-**Rename Comics Universal** is an app for Linux and Windows designed to automatically rename digital comic files (PDF, CBR, CBZ, EPUB) by detecting the series name, issue number, and optional title.
+**Rename Comics Universal** is an script for Linux and Windows designed to automatically rename digital comic files (PDF, CBR, CBZ, EPUB) by detecting the series name, issue number, and optional title.
 
 ---
 
@@ -132,7 +132,7 @@ Blogger Linux
 
 ## Scarica zip per Linux
 
-You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
 
 👉 https://buymeacoffee.com/fconidi/e/487102
 
@@ -143,7 +143,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 
 ## Scarica zip per Windows
 
-You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
 
 👉 https://buymeacoffee.com/fconidi/e/485941
 
