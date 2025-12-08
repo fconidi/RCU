@@ -10,6 +10,7 @@
 
 # 🇬🇧 ENGLISH VERSION
 
+
 ## Download for Linux
 
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
@@ -22,6 +23,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
 
 👉 https://buymeacoffee.com/fconidi/e/485941
+
 
 
 ## Overview
@@ -118,6 +120,23 @@ Blogger Linux
 
 
 # 🇮🇹 VERSIONE ITALIANA
+
+
+## Scarica zip per Linux
+
+You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+
+👉 https://buymeacoffee.com/fconidi/e/487102
+
+
+## Scarica zip per Windows
+
+You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+
+👉 https://buymeacoffee.com/fconidi/e/485941
+
+
+
 
 ## Panoramica
 
