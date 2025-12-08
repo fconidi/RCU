@@ -10,6 +10,20 @@
 
 # 🇬🇧 ENGLISH VERSION
 
+## Download for Linux
+
+You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+
+👉 https://buymeacoffee.com/fconidi/e/487102
+
+
+## Download for Windows
+
+You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+
+👉 https://buymeacoffee.com/fconidi/e/485941
+
+
 ## Overview
 
 **Rename Comics Universal (RCU)** is a Bash script designed to automatically rename digital comic files (PDF, CBR, CBZ, EPUB) by detecting the series name, issue number, and optional title, producing clean and consistent filenames like **"Comics_Name 033 - Clean Title.cbz"**.
