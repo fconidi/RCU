@@ -124,7 +124,7 @@ rename_comics_universal
 
 **Franco Conidi aka Edmond - SysLinuxOS**  
 System Integrator, Network Engineer, IT Consultant
-Blogger Linux
+Blogger Linux Developer
 
 
 # 🇮🇹 VERSIONE ITALIANA
