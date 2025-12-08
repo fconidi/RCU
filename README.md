@@ -19,7 +19,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
-![RCU-Windows](https://github.com/user-attachments/assets/c24c2757-7af9-45e7-8009-b6d3fe5ab5e0)
+![RCU-Linux](https://github.com/user-attachments/assets/bc53bd6f-f58e-46b4-a549-c11d6d5e6e1d)
 
 
 
@@ -30,7 +30,8 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/485941
 
 
-![Download_RCU_Windows-512](https://github.com/user-attachments/assets/3f647555-b9aa-4760-a9d6-50802c01c481)
+![RCU-Windows](https://github.com/user-attachments/assets/54f76cfd-9796-4965-afc6-507c466448b8)
+
 
 
 ## Overview
@@ -136,7 +137,8 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
-![Download_RCU_Linux-512](https://github.com/user-attachments/assets/46f25255-3738-4806-b5fa-f8246d1d2be6)
+![RCU-Linux](https://github.com/user-attachments/assets/bc53bd6f-f58e-46b4-a549-c11d6d5e6e1d)
+
 
 
 ## Scarica zip per Windows
@@ -146,7 +148,8 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/485941
 
 
-![Download_RCU_Windows-512](https://github.com/user-attachments/assets/3f647555-b9aa-4760-a9d6-50802c01c481)
+![RCU-Windows](https://github.com/user-attachments/assets/54f76cfd-9796-4965-afc6-507c466448b8)
+
 
 
 ## Panoramica
