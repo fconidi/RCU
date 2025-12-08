@@ -251,7 +251,7 @@ In alternativa puoi lanciarlo senza parametri e inserire il percorso quando rich
 ## 👤 Autore
 
 **Franco Conidi aka Edmond - SysLinuxOS**  
-System Integrator, Network engineer, IT Consultant
+System Integrator, Network Engineer, IT Consultant
 Blogger Linux Developer
 
 ---
