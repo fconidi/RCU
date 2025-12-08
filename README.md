@@ -18,12 +18,17 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
+![Download_RCU_Linux-512](https://github.com/user-attachments/assets/46f25255-3738-4806-b5fa-f8246d1d2be6)
+
+
 ## Download for Windows
 
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
 
 👉 https://buymeacoffee.com/fconidi/e/485941
 
+
+![Download_RCU_Windows-512](https://github.com/user-attachments/assets/3f647555-b9aa-4760-a9d6-50802c01c481)
 
 
 ## Overview
@@ -129,6 +134,9 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
+![Download_RCU_Linux-512](https://github.com/user-attachments/assets/46f25255-3738-4806-b5fa-f8246d1d2be6)
+
+
 ## Scarica zip per Windows
 
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
@@ -136,6 +144,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/485941
 
 
+![Download_RCU_Windows-512](https://github.com/user-attachments/assets/3f647555-b9aa-4760-a9d6-50802c01c481)
 
 
 ## Panoramica
