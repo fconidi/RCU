@@ -19,7 +19,8 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
-![Download_RCU_Linux-512](https://github.com/user-attachments/assets/46f25255-3738-4806-b5fa-f8246d1d2be6)
+![RCU-Windows](https://github.com/user-attachments/assets/c24c2757-7af9-45e7-8009-b6d3fe5ab5e0)
+
 
 
 ## Download for Windows
