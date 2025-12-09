@@ -10,7 +10,7 @@
 
 # 🇬🇧 ENGLISH VERSION
 
-
+## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Download for Linux
 
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
@@ -22,7 +22,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 ![RCU-Linux](https://github.com/user-attachments/assets/bc53bd6f-f58e-46b4-a549-c11d6d5e6e1d)
 
 
-
+## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Download for Windows
 
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
@@ -125,11 +125,14 @@ rename_comics_universal
 **Franco Conidi aka Edmond - SysLinuxOS**  
 System Integrator, Network Engineer, IT Consultant
 Blogger Linux Developer
+https://francoconidi.it
+https://syslinuxos.com
 
 
 # 🇮🇹 VERSIONE ITALIANA
 
 
+## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Scarica zip per Linux
 
 Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
@@ -141,6 +144,7 @@ Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
 
 
 
+## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Scarica zip per Windows
 
 Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
@@ -253,6 +257,8 @@ In alternativa puoi lanciarlo senza parametri e inserire il percorso quando rich
 **Franco Conidi aka Edmond - SysLinuxOS**  
 System Integrator, Network Engineer, IT Consultant
 Blogger Linux Developer
+https://francoconidi.it
+https://syslinuxos.com
 
 ---
 
