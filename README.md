@@ -10,6 +10,7 @@
 
 # 🇬🇧 ENGLISH VERSION
 
+## Update 15/12/2025 Add GUI for Windows
 ## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Download for Linux
 
@@ -111,8 +112,12 @@ rename_comics_universal
 ![RCU-Windows](https://github.com/user-attachments/assets/91466ea5-865f-4492-a52e-d4d1f590d32d)
 
 ---
----
----
+
+## GUI for Windows
+
+<img width="983" height="804" alt="RCU-GUI" src="https://github.com/user-attachments/assets/fda184c2-1232-4409-83e2-f1254d541801" />
+
+
 
 ## 📋 Requirements
 
@@ -132,6 +137,7 @@ https://syslinuxos.com
 # 🇮🇹 VERSIONE ITALIANA
 
 
+## Aggiunto interfaccia grafica per Windows
 ## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Scarica zip per Linux
 
@@ -242,7 +248,11 @@ In alternativa puoi lanciarlo senza parametri e inserire il percorso quando rich
 
 ![RCU-Windows](https://github.com/user-attachments/assets/91466ea5-865f-4492-a52e-d4d1f590d32d)
 
+---
 
+## GUI for Windows
+
+<img width="983" height="804" alt="RCU-GUI" src="https://github.com/user-attachments/assets/fda184c2-1232-4409-83e2-f1254d541801" />
 
 ---
 
