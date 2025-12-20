@@ -20,7 +20,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
-![RCU-Linux](https://github.com/user-attachments/assets/bc53bd6f-f58e-46b4-a549-c11d6d5e6e1d)
+<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/f188202e-01e6-4717-961c-e7dae397eec6" />
 
 
 ## Info https://francoconidi.it/rcu-rename-comics-universal/
@@ -31,7 +31,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 👉 https://buymeacoffee.com/fconidi/e/485941
 
 
-![RCU-Windows](https://github.com/user-attachments/assets/54f76cfd-9796-4965-afc6-507c466448b8)
+<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/2ad91a05-c2e9-40b0-a1fb-fbfd90d82e8e" />
 
 
 
@@ -146,7 +146,7 @@ Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
-![RCU-Linux](https://github.com/user-attachments/assets/bc53bd6f-f58e-46b4-a549-c11d6d5e6e1d)
+<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/f188202e-01e6-4717-961c-e7dae397eec6" />
 
 
 
@@ -158,7 +158,7 @@ Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
 👉 https://buymeacoffee.com/fconidi/e/485941
 
 
-![RCU-Windows](https://github.com/user-attachments/assets/54f76cfd-9796-4965-afc6-507c466448b8)
+<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/f188202e-01e6-4717-961c-e7dae397eec6" />
 
 
 
