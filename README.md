@@ -17,6 +17,7 @@
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
 
 
+
 👉 https://buymeacoffee.com/fconidi/e/487102
 
 
@@ -27,6 +28,7 @@ You can get the full RCU package (Linux & Windows, with source code and installe
 ## Download for Windows
 
 You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+
 
 👉 https://buymeacoffee.com/fconidi/e/485941
 
@@ -141,7 +143,9 @@ https://syslinuxos.com
 ## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Scarica zip per Linux
 
+
 Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
+
 
 👉 https://buymeacoffee.com/fconidi/e/487102
 
@@ -152,6 +156,7 @@ Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
 
 ## Info https://francoconidi.it/rcu-rename-comics-universal/
 ## Scarica zip per Windows
+
 
 Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
 
