@@ -1,8 +1,22 @@
-# ENGLISH Changelog - RCU (Rename Comics Universal)
+# English changelog — RCU Linux
+
+## v2.8.1 — 2026-10-06
+
+- Remove the full metadata tail beginning at a recognized publisher/date or colorization/version note, including ISO publisher dates.
+- Allow GUI selection of one duplicate version per proposed filename; preserve other versions.
+
+## v2.8 — 2026-10-06
+
+- Added preview and confirmation, per-file GUI selection, undo history and collision-safe renaming.
+- Fixed cancellation, mixed-series detection and corruption on repeated runs.
+- Added explicit CLI/GUI modes, dry run, literal suffix tags and optional title case.
+- Preserve title years, genuine parentheses and legitimate words.
+- Added reproducible Debian packaging with Bash, Python 3.9+ and optional Zenity.
+
+
 
 ## v2.7 - 2025-12-05
 - Added `.deb` package with icon and `.desktop` file for menu integration on major Linux distributions.
-- Improved Windows support via `.bat` wrapper and “click & run” `.exe` option.
 - Enhanced automatic series header detection in mixed folders (multiple series, multiple formats).
 - Fixed minor bugs in issue number parsing and space normalization.
 
@@ -48,16 +62,28 @@
 
 
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 
-# ITALIAN Changelog - RCU (Rename Comics Universal)
+# Registro modifiche — RCU Linux
+
+## v2.8.1 — 2026-10-06
+
+- Rimozione della coda completa dei metadati a partire da editore/data o note di colorazione/versione riconosciuti, incluse date ISO.
+- Selezione GUI di una sola versione duplicata per nome proposto, conservando le altre.
+
+## v2.8 — 2026-10-06
+
+- Anteprima e conferma, selezione GUI dei file, registri di annullamento e rinomine senza sovrascrittura.
+- Corretti annullamento, cartelle con serie miste e corruzione dei nomi nelle esecuzioni ripetute.
+- Modalità CLI/GUI esplicite, dry run, tag letterali e capitalizzazione facoltativa.
+- Conservati anni, parentesi dei titoli e parole legittime.
+- Pacchetto Debian riproducibile con Bash, Python 3.9+ e Zenity facoltativo.
+
+
 
 ## v2.7 - 2025-12-05
 - Aggiunto pacchetto `.deb` con icona e file `.desktop` per integrazione nel menu delle principali distro.
-- Migliorata compatibilità con Windows tramite wrapper `.bat` e possibilità di creazione `.exe` “click & run”.
 - Migliorata rilevazione automatica dell’header di serie in cartelle miste (più serie, più formati).
 - Correzione di piccoli bug nel parsing dei numeri di albo e nella normalizzazione degli spazi.
 
@@ -98,4 +124,3 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ## v1.0 - 2025-07-10
 - Prima versione dello script di rinomina per una singola serie in formato CBR/CBZ.
 - Rinomina base: `Serie Numero - Titolo` con normalizzazione minima di spazi e maiuscole.
-
