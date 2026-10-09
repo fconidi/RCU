@@ -1,282 +1,165 @@
-# RCU - Rename Comics Universal
+# RCU — Rename Comics Universal 2.8.1
 
-**Rename Comics Universal** is an script for Linux and Windows designed to automatically rename digital comic files (PDF, CBR, CBZ, EPUB) by detecting the series name, issue number, and optional title.
+[Italiano](#italiano) | [English](#english)
 
----
+## Download Linux
 
-[🇬🇧 English](#-english-version) | [🇮🇹 Italiano](#-versione-italiana)
+Download e supporto / Download and support — Buy Me a Coffee:
 
----
+https://buymeacoffee.com/fconidi/e/487102
 
-# 🇬🇧 ENGLISH VERSION
+<img width="230" height="230" alt="rcu-qr-linux" src="https://github.com/user-attachments/assets/f188202e-01e6-4717-961c-e7dae397eec6" />
 
-## Update 15/12/2025 Add GUI for Windows
-## Info https://francoconidi.it/rcu-rename-comics-universal/
-## Download for Linux
+## Italiano
 
-You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
+RCU riordina i nomi dei fumetti PDF, CBR, CBZ ed EPUB su Linux. Analizza i nomi,
+mostra un'anteprima e rinomina solo dopo conferma. Non legge né modifica il
+contenuto degli archivi. Ogni file mantiene la propria serie nelle cartelle miste.
 
+## Requisiti e installazione
 
-
-👉 https://buymeacoffee.com/fconidi/e/487102
-
-
-<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/f188202e-01e6-4717-961c-e7dae397eec6" />
-
-
-## Info https://francoconidi.it/rcu-rename-comics-universal/
-## Download for Windows
-
-You can get the full RCU package (Linux & Windows, with source code and installers) on Buy Me a Coffee:
-
-
-👉 https://buymeacoffee.com/fconidi/e/485941
-
-
-<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/2ad91a05-c2e9-40b0-a1fb-fbfd90d82e8e" />
-
-
-
-## Overview
-
-**Rename Comics Universal (RCU)** is a Bash script designed to automatically rename digital comic files (PDF, CBR, CBZ, EPUB) by detecting the series name, issue number, and optional title, producing clean and consistent filenames like **"Comics_Name 033 - Clean Title.cbz"**.
-
-It is aimed at readers and collectors who want to tidy up messy file names full of tags such as "scan", "by", group names, or random notes.
-
-## Main Technical Features
-
-- **Format detection**: Scans a chosen directory and processes only PDF, CBR, CBZ, and EPUB files, ignoring subfolders
-- **Smart extraction**: Uses regular expressions to isolate issue numbers (e.g., "033" or "N.33") and titles, removing tokens like "ScanBy", "by", "edit" with common Unix tools
-- **Automatic cleanup**: Applies functions to normalize spacing, remove brackets and special characters, and convert titles to proper title case, while padding issue numbers to three digits (e.g., 033)
-- **Header detection**: Analyzes filenames to find the most frequent series header (such as "Zagor" or "Dylan Dog"), which can be confirmed or changed via a Zenity GUI dialog
-- **Colored output**: Shows colored terminal messages for successes and skips and prints a final summary with counters
-
-## How It Works
-
-The script asks for a target folder either via command-line argument or through a small Zenity window, then scans all supported files in that directory.
-
-For each file it tries to determine:
-1. The series name
-2. The issue number location
-3. Any following title that can be cleaned up
-
-It then builds a standardized name in one of these forms:
-
-- **"Series 001 - Clean title.ext"** when a title can be extracted
-- **"Series 001.ext"** when no usable title is found
-
-If a file is already correctly named or a file with the target name already exists, the script skips it to avoid duplicates or overwrites.
-
-## What It Fixes Automatically
-
-✅ Removes useless tags like "scan by…", "edited", "by scan", release group labels, or redundant technical notes  
-✅ Normalizes capitalization so that important words start with an uppercase letter, while articles and prepositions stay lowercase where appropriate  
-✅ Strips brackets and their internal content when they only contain technical info or repeated titles  
-✅ Keeps numbering consistent with three digits, which is especially helpful for long-running series  
-
-## Usage
-
-### Linux Terminal
+Servono Bash e Python 3.9 o successivo. Zenity abilita le finestre grafiche.
 
 ```bash
-chmod +x rename_comics_universal.sh
-./rename_comics_universal.sh
+sudo apt install ./rename-comics-universal_2.8.1_all.deb
+rename_comics_universal --gui
 ```
 
-### Or Using .deb Package
+Per avviare gli script del pacchetto scaricato, conservare la cartella `lib/` accanto al launcher:
 
 ```bash
-sudo dpkg -i rename-comics-universal_2.7.deb
-rename_comics_universal
+./rename_comics_universal --help
+./rename_comics_universal --cli --dry-run /percorso/Fumetti
 ```
 
-### For Windows only drag and drop
+## Anteprima e conferma
 
+Senza argomenti RCU usa Zenity se è disponibile una sessione grafica; altrimenti
+chiede il percorso nel terminale. Un percorso passato come argomento seleziona
+la CLI, anche quando Zenity è installato. `--cli` e `--gui` rendono la scelta esplicita.
+Se la GUI non è disponibile, `--gui` ripiega sul terminale.
 
-## Why It Is Useful for Collectors
-
-- **Saves time**: Renames hundreds of files in one go instead of doing it manually
-- **Improves browsing**: Makes the library easier to navigate in file managers and comic readers
-- **Lightweight**: No dependencies beyond Bash and optionally Zenity
-- **Highly configurable**: Easy to customize for specific needs
-- **Perfect for scans**: Particularly suited to Italian and English comics from real scans, where filenames often contain many superfluous details
-
-## Video/Screencast Linux
-
-[Watch demo video](https://github.com/user-attachments/assets/6e5d87a3-7b75-423d-adc6-f67b4f0a4c72)
-
----
----
----
-
-## Video/Screencast Windows
-
-![RCU-Windows](https://github.com/user-attachments/assets/91466ea5-865f-4492-a52e-d4d1f590d32d)
-
----
-
-## GUI for Windows
-
-<img width="983" height="804" alt="RCU-GUI" src="https://github.com/user-attachments/assets/fda184c2-1232-4409-83e2-f1254d541801" />
-
-
-
-## 📋 Requirements
-
-- **Linux**: Bash 4.0+, Zenity (opzionale per GUI)
-- **Windows**: Powershell
-- **Supported formats**: PDF, CBR, CBZ, EPUB
-
-## 👤 About
-
-**Franco Conidi aka Edmond - SysLinuxOS**  
-System Integrator, Network Engineer, IT Consultant
-Blogger Linux Developer
-https://francoconidi.it
-https://syslinuxos.com
-
-
-# 🇮🇹 VERSIONE ITALIANA
-
-
-## Aggiunto interfaccia grafica per Windows
-## Info https://francoconidi.it/rcu-rename-comics-universal/
-## Scarica zip per Linux
-
-
-Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
-
-
-👉 https://buymeacoffee.com/fconidi/e/487102
-
-
-<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/f188202e-01e6-4717-961c-e7dae397eec6" />
-
-
-
-## Info https://francoconidi.it/rcu-rename-comics-universal/
-## Scarica zip per Windows
-
-
-Ottieni tutti i files direttamente dal sito BuyMeaCoffee:
-
-👉 https://buymeacoffee.com/fconidi/e/485941
-
-
-<img width="230" height="230" alt="rcu-qr-windows" src="https://github.com/user-attachments/assets/f188202e-01e6-4717-961c-e7dae397eec6" />
-
-
-
-## Panoramica
-
-Hai una collezione di fumetti digitali in disordine? **Rename Comics Universal (RCU)** è uno script bash universale che automatizza il rinominamento di file PDF, CBR, CBZ ed EPUB, estraendo intestazioni comuni (come "Zagor", "Spider-Man" o "Dylan Dog"), numeri di albo e titoli, per ottenere nomi puliti e standardizzati.
-
-## Caratteristiche Tecniche Principali
-
-- **Riconoscimento Formati**: Analizza PDF, CBR, CBZ, EPUB in una directory specifica, ignorando sottodirectory
-- **Estrazione Intelligente**: Regex per isolare numeri (es. "033", "N.33") e titoli, rimuovendo token come "ScanBy", "by", "edit" con sed -E e tr
-- **Pulizia Automatica**: Funzioni `clean_title` e `title_case` per Title Case, eliminazione di parentesi, spazi multipli e caratteri speciali; padding numerico a 3 cifre (es. "Zagor 033 - Titolo pulito.cbz")
-- **Header Detection**: Cerca il nome del fumetto e seleziona quello principale o quello più comune, si può modificare tramite Zenity GUI
-- **Output Colorato**: ANSI colors (GREEN per successi, YELLOW per skip), summary finale con contatori
-
-## Come Funziona
-
-1. **Seleziona cartella** via CLI o Zenity
-2. **Detect header**: Scansiona file, estrae potenziali header (pre-numero), sceglie il più frequente
-3. **Rename files**: Per ogni file, estrae numero + titolo, applica pulizia, formatta nuovo nome e rinomina (con check duplicati)
-
-Lo script analizza tutti i file supportati nella cartella e cerca di capire:
-- Qual è il "nome serie" più usato (es. "Zagor", "Dylan Dog")
-- Dove si trova il numero dell'albo nel nome del file
-- Se dopo il numero è presente un titolo da ripulire
-
-Per ogni file costruisce un nuovo nome del tipo:
-
-- **"Serie 001 - Titolo pulito.cbz"** se esiste un titolo
-- **"Serie 001.cbz"** se non c'è titolo recuperabile
-
-## Cosa Sistema Automaticamente
-
-✅ Toglie scritte inutili come "scan by…", "edited", "colori", tag di gruppi, ecc.  
-✅ Sistema maiuscole/minuscole: articoli e preposizioni rimangono in minuscolo, le parole importanti hanno l'iniziale maiuscola  
-✅ Elimina parentesi e contenuto dentro le parentesi quando sono solo note tecniche o ripetizioni del titolo  
-✅ Evita di creare doppioni: se esiste già un file con il nuovo nome, salta quel fumetto  
-
-## Vantaggi
-
-- **Ideale per collezioni italiane** (Zagor, Tex Willer) o USA (Marvel/DC)
-- **Gestisce varianti** underscore/spazi, normalizza zeri iniziali
-- **Evita sovrascritture** con error handling robusto
-- **Personalizzabile** per nuovi formati estendendo il loop
-- **Script leggero** (13KB), zero dipendenze oltre bash/zenity (opzionale)
-
-## Come Si Usa
-
-### Linux Terminal
+La GUI consente di scegliere **Rinomina file** oppure **Annulla ultima operazione**,
+selezionare la cartella, confermare la serie e controllare la tabella dei nomi.
+Lasciare vuota la serie mantiene il rilevamento per ciascun file. Una serie inserita
+esplicitamente viene applicata a tutti i file. Nell'anteprima si possono deselezionare
+singoli file. **Annulla** interrompe la procedura prima delle rinomine.
+Se più versioni producono lo stesso nome, sono inizialmente deselezionate:
+scegliere **una sola versione per nome proposto**. Le altre conservano il nome
+originale. Selezionandone più di una, RCU segnala il conflitto e le lascia intatte.
+La CLI non sceglie automaticamente fra versioni duplicate.
 
 ```bash
-chmod +x rename_comics_universal.sh
-./rename_comics_universal.sh
+# Mostra soltanto il piano; non scrive nemmeno il registro.
+rename_comics_universal --cli --dry-run /percorso/Fumetti
+
+# Mostra il piano e chiede conferma.
+rename_comics_universal --cli /percorso/Fumetti
+
+# Applicazione esplicita senza richiesta interattiva.
+rename_comics_universal --cli --yes /percorso/Fumetti
+
+# Intestazione comune, utile per nomi come 033_Il_ponte.cbz.
+rename_comics_universal --cli --header "Zagor" /percorso/Fumetti
 ```
 
-### Oppure Installare il Pacchetto .deb
+Il secondo argomento posizionale resta disponibile come alternativa a `--header`:
+`rename_comics_universal /percorso/Fumetti "Zagor"`.
+
+## Formato e pulizia
+
+Il formato è `Serie 001 - Titolo.cbz`, oppure `Serie 001.cbz` senza titolo.
+Le estensioni diventano minuscole; i numeri hanno almeno tre cifre.
+
+```text
+Tex_001_Area_N.51.cbz              → Tex 001 - Area N.51.cbz
+Batman_003_Stand_By_Me.cbz          → Batman 003 - Stand By Me.cbz
+Zagor_002_Il_ritorno_(Parte_2).cbz → Zagor 002 - Il ritorno (Parte 2).cbz
+Zagor N.733 - Il Regno Sommerso (SBE 2026-08-04) Rocky V (Colorazione 2.2 by Roy).pdf
+                                → Zagor 733 - Il Regno Sommerso.pdf
+```
+
+La capitalizzazione originale viene conservata. `--title-case` la normalizza,
+preservando sigle brevi come DC e USA. Anni, parole come "By" e "Scan" e contenuti
+sconosciuti fra parentesi rimangono nel titolo. RCU rimuove metadati riconosciuti,
+come `[dinofelix]`, suffissi scanner noti, `scan by ...` e date editoriali con
+editore riconosciuto. Il primo blocco editore/data (anno, mese/anno o data ISO),
+oppure una nota fra parentesi di colorazione/versione, segna l'inizio dei metadati:
+quel blocco e tutto ciò che segue vengono rimossi. L'estensione segue il titolo;
+il formato del file rimane lo stesso. I tag aggiuntivi si configurano con un file UTF-8:
+
+```text
+# Un suffisso letterale per riga
+MioScanner
+A+B
+```
 
 ```bash
-sudo dpkg -i rename-comics-universal_2.7.deb
-rename_comics_universal
+rename_comics_universal --cli --tags-file tags.txt /percorso/Fumetti
 ```
 
-In alternativa puoi lanciarlo senza parametri e inserire il percorso quando richiesto, oppure confermare/modificare l'intestazione proposta (il nome della serie).
+Vengono elaborati solo file regolari della cartella scelta. Sottocartelle e link
+simbolici sono esclusi. Numerazioni non riconosciute o frazionarie vengono saltate.
+I nomi ambigui vanno controllati nell'anteprima; i file senza serie richiedono
+`--header`, oppure una sola serie riconoscibile nella cartella.
 
+## Registro e annullamento
 
-### Windows basta solo drag and drop da powershell
+```bash
+rename_comics_universal --cli --undo /percorso/Fumetti
+rename_comics_universal --cli --yes --undo /percorso/Fumetti
+```
 
+Ogni operazione registra i nomi originali e l'identità dei file in
+`$XDG_STATE_HOME/rename-comics-universal/`, normalmente
+`~/.local/state/rename-comics-universal/`. Conservare questi registri per poter
+annullare. L'annullamento ripristina i nomi, non il contenuto dei fumetti.
 
-## Perché è Utile per i Collezionisti
+RCU rifiuta sovrascritture anche quando una destinazione compare dopo l'anteprima.
+Se un file cambia dopo l'anteprima o dopo la rinomina, oppure il nome originale
+è occupato, viene lasciato al suo posto e l'errore viene segnalato. Il ripristino
+può essere parziale: risolvere il conflitto e ripetere `--undo` per i file rimanenti.
+Due operazioni RCU sulla stessa cartella, con lo stesso registro, sono serializzate.
 
-- **Risparmia tempo**: Invece di rinominare centinaia di file a mano, basta un comando
-- **Migliora la ricerca**: Con nomi coerenti è più facile trovare un numero specifico o sfogliare l'intera serie
-- **Pensato per fumetti italiani ed americani**: Gestisce scansioni "reali" dove i nomi dei file spesso includono un sacco di informazioni superflue
-- **Altamente configurabile**: Aggiungendo eventuali nomi da rimuovere all'interno dello script
+Il riepilogo distingue rinominati/ripristinati, invariati, saltati, conflitti ed errori.
+Codici di uscita: `0` successo o annullamento, `1` errori/conflitti, `2` uso CLI errato.
 
-> **Nota**: Per fumetti in inglese potrebbe richiedere adattamenti
+## Pacchetto Debian
 
-## Video/Screencast Linux
+Il pacchetto `rename-comics-universal_2.8.1_all.deb` installa il comando in
+`/usr/bin` e i moduli in `/usr/share/rename-comics-universal`.
+Richiede Python 3.9 o successivo; Zenity abilita i dialoghi grafici.
 
-[Guarda il video dimostrativo](https://github.com/user-attachments/assets/6e5d87a3-7b75-423d-adc6-f67b4f0a4c72)
+## English
 
----
----
----
+RCU previews and normalizes comic filenames on Linux. Requires Bash and Python
+3.9+; Zenity is optional. Mixed folders preserve each file's series. Names use
+`Series 001 - Title.ext`; original capitalization and unknown metadata are retained.
+Recognized publisher/date or bracketed colorization/version notes start a metadata
+tail: that marker and everything after it are removed, preserving the file format.
 
-## Video/Screencast Windows
+```bash
+rename_comics_universal --cli --dry-run ~/Comics
+rename_comics_universal --cli --yes ~/Comics
+rename_comics_universal --cli --header "Batman" ~/Comics
+rename_comics_universal --cli --undo ~/Comics
+rename_comics_universal --gui
+```
 
-![RCU-Windows](https://github.com/user-attachments/assets/91466ea5-865f-4492-a52e-d4d1f590d32d)
+Every rename requires confirmation unless `--yes` is passed in CLI mode. GUI
+preview checkboxes choose the files. Cancellation leaves filenames unchanged.
+For duplicate proposed names, select only one version per name; unselected files
+keep their original names. CLI mode leaves duplicate candidates unchanged.
+`--title-case` enables capitalization; `--tags-file` reads literal suffix tags.
+Existing destinations are never replaced. Undo uses the per-user journal and
+refuses occupied original names or files modified since renaming. Subfolders are excluded. Use `--help` for all options.
 
----
+## Video Linux
 
-## GUI for Windows
+[Video dimostrativo della versione precedente / Previous-version demonstration](https://github.com/user-attachments/assets/6e5d87a3-7b75-423d-adc6-f67b4f0a4c72)
 
-<img width="983" height="804" alt="RCU-GUI" src="https://github.com/user-attachments/assets/fda184c2-1232-4409-83e2-f1254d541801" />
+## Autore / Author
 
----
+Franco Conidi aka Edmond — SysLinuxOS.
 
-## 📋 Requisiti
-
-- **Linux**: Bash 4.0+, Zenity (opzionale per GUI)
-- **Windows**: Powershell
-- **Formati supportati**: PDF, CBR, CBZ, EPUB
-
-## 👤 Autore
-
-**Franco Conidi aka Edmond - SysLinuxOS**  
-System Integrator, Network Engineer, IT Consultant
-Blogger Linux Developer
-https://francoconidi.it
-https://syslinuxos.com
-
----
-
-**Versione**: 2.7 | **Data**: Dicembre 2025 | **Piattaforma**: Linux/Windows
-
-🎉 **Scarica ed ordina la tua libreria in pochi secondi!** 🎉
+[Informazioni su RCU](https://francoconidi.it/rcu-rename-comics-universal/) · [francoconidi.it](https://francoconidi.it) · [syslinuxos.com](https://syslinuxos.com)
