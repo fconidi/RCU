@@ -1,5 +1,20 @@
 # English changelog — RCU Linux
 
+## v3.2.1 — 2026-10-11
+
+- Recognize comma-delimited issue numbers and preserve the correct title when a rule removes the Bonelli metadata tail.
+- List the GTK app as Rename Comics Converter in the Graphics menu; add current main-window and rules-editor screenshots.
+
+## v3.2.0 — 2026-10-10
+
+- Add protected CSV/JSON exports, cooperative cancellation, progress, history selection and a desktop history browser.
+- Preserve selections across preview filters, diagnose filename length limits and harden undo journals.
+
+## v3.1.0 — 2026-10-10
+
+- Add a native GTK desktop with preview, file selection, guided rules and five interface languages.
+- Preserve original extension spelling and add SHA-256 verification for undo.
+
 ## v2.8.1 — 2026-10-06
 
 - Remove the full metadata tail beginning at a recognized publisher/date or colorization/version note, including ISO publisher dates.
@@ -66,6 +81,21 @@
 
 
 # Registro modifiche — RCU Linux
+
+## v3.2.1 — 2026-10-11
+
+- Riconosciuti i numeri seguiti da virgola; le regole che eliminano la coda Bonelli conservano il titolo corretto.
+- La voce GTK appare come Rename Comics Converter in Graphics; aggiunte schermate aggiornate della finestra e dell'editor.
+
+## v3.2.0 — 2026-10-10
+
+- Aggiunte esportazioni CSV/JSON protette, interruzione cooperativa, avanzamento, selezione dei registri e cronologia grafica.
+- Conservata la selezione con i filtri; diagnosticati i limiti dei nomi e rafforzata la convalida dei registri.
+
+## v3.1.0 — 2026-10-10
+
+- Aggiunta interfaccia GTK nativa con anteprima, selezione dei file, regole guidate e cinque lingue.
+- Conservata l'estensione originale e aggiunta verifica SHA-256 per l'annullamento.
 
 ## v2.8.1 — 2026-10-06
 
