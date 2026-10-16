@@ -1,5 +1,10 @@
 # English changelog — RCU Linux
 
+## v3.3.0 — 2026-10-16
+
+- Add "Include subfolders" (GTK, saved in preferences) and `--recursive`/`-r`: process a folder and everything below it, off by default.
+- Each included folder is its own collection with its own series, journal and undo; previews show names relative to the chosen folder.
+
 ## v3.2.1 — 2026-10-11
 
 - Recognize comma-delimited issue numbers and preserve the correct title when a rule removes the Bonelli metadata tail.
@@ -81,6 +86,11 @@
 
 
 # Registro modifiche — RCU Linux
+
+## v3.3.0 — 2026-10-16
+
+- Aggiunta «Includi sottocartelle» (GTK, salvata nelle preferenze) e `--recursive`/`-r`: elabora una cartella e tutto ciò che contiene; spenta di predefinito.
+- Ogni cartella inclusa è una raccolta a sé, con serie, registro e annullamento propri; le anteprime mostrano i nomi relativi alla cartella scelta.
 
 ## v3.2.1 — 2026-10-11
 

@@ -1,4 +1,4 @@
-# Rename Comics Converter (RCU) — Linux 3.2.1
+# Rename Comics Converter (RCU) — Linux 3.3.0
 
 [Italiano](#italiano) | [English](#english)
 
@@ -10,7 +10,7 @@ Download e supporto / Download and support — [Buy Me a Coffee](https://buymeac
 
 ## Italiano
 
-RCU rinomina fumetti PDF, CBR, CBZ ed EPUB su Linux. La versione 3.2.1 offre una
+RCU rinomina fumetti PDF, CBR, CBZ ed EPUB su Linux. La versione 3.3.0 offre una
 finestra GTK con anteprima, scelta dei file, regole personali e annullamento. Nelle
 cartelle miste conserva la serie di ciascun file. L'interfaccia supporta italiano,
 inglese, spagnolo, tedesco e francese.
@@ -27,10 +27,10 @@ Editor delle regole:
 
 ### Installazione e avvio
 
-Per installare il pacchetto 3.2.1, nella cartella che contiene il `.deb`:
+Per installare il pacchetto 3.3.0, nella cartella che contiene il `.deb`:
 
 ```bash
-sudo apt install ./rename-comics-universal_3.2.1_all.deb
+sudo apt install ./rename-comics-universal_3.3.0_all.deb
 rename_comics_universal --gui
 ```
 
@@ -52,23 +52,27 @@ rename_comics_universal --cli --history ~/Fumetti
 rename_comics_universal --cli --undo ~/Fumetti
 ```
 
+Con **Includi sottocartelle** (da terminale `--recursive`) RCU elabora anche le cartelle
+interne: ognuna è una raccolta a sé, con serie, registro e annullamento propri; i nomi
+nell'anteprima sono relativi alla cartella scelta. Di predefinito l'opzione è spenta.
+
 La 3.2.1 riconosce anche numeri seguiti da virgola, per esempio `Serie 1, Titolo`.
 Per rimuovere tutto da `(Bonelli` o `Bonelli` in poi, usa una regola regex con
 `\(?Bonelli`, azione **Rimuovi** e ambito **Da questo testo alla fine**.
 
 ## English
 
-RCU renames PDF, CBR, CBZ and EPUB comics on Linux. Version 3.2.1 provides a
+RCU renames PDF, CBR, CBZ and EPUB comics on Linux. Version 3.3.0 provides a
 native GTK window with preview, file selection, custom rules and undo. Mixed
 folders retain each file's series. The interface supports English, Italian,
 Spanish, German and French. The [main window](screenshots/main-window-3.2.1.png)
 and [custom rules editor](screenshots/custom-rules-3.2.1.png) are shown above.
 
 The Linux download is available from [Buy Me a Coffee](https://buymeacoffee.com/fconidi/e/487102).
-To install the 3.2.1 package, run APT from the directory containing the `.deb`:
+To install the 3.3.0 package, run APT from the directory containing the `.deb`:
 
 ```bash
-sudo apt install ./rename-comics-universal_3.2.1_all.deb
+sudo apt install ./rename-comics-universal_3.3.0_all.deb
 rename_comics_universal --gui
 ```
 
@@ -81,6 +85,10 @@ refresh the preview and review the proposed names before confirming a rename.
 Existing files are never overwritten; history supports undo when the renamed
 files have not changed. CLI dry runs, history and undo are available with
 `--cli --dry-run`, `--cli --history` and `--cli --undo`.
+
+With **Include subfolders** (`--recursive` in the terminal) RCU also processes inner
+folders: each one is its own collection with its own series, journal and undo, and
+preview names are relative to the chosen folder. The option is off by default.
 
 Version 3.2.1 recognizes names such as `Series 1, Title`. To remove everything
 from `(Bonelli` or `Bonelli` onward, use regex pattern `\(?Bonelli`, **Remove**
